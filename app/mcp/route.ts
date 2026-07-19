@@ -65,7 +65,7 @@ const handler = createMcpHandler(
         "do-subfinder": {
           description: "Build a ProjectDiscovery Subfinder passive subdomain-enumeration command.",
         },
-      },
+      } as any,
     },
   },
   {
